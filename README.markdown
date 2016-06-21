@@ -13,13 +13,16 @@ Setup Development
   - python (dev)
   - postgres
 
-1) mkvirtualenv --no-site-packages domicilios
-2) git clone git@github.com:avarajar/distance.git
-3) cd distancia
-4) pip install -r drequirements.txt
-6) ./manage.py syncdb
-7) ./manage.py migrate
-8) 7) ./manage.py runserver
+* Steps:
+
+
+  - mkvirtualenv --no-site-packages distancia
+  - git clone git@github.com:avarajar/distancia.git
+  - cd distancia
+  - pip install -r drequirements.txt
+  - ./manage.py syncdb
+  - ./manage.py migrate
+  - ./manage.py runserver
 
 Deploy to heroku
 ========
