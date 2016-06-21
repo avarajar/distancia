@@ -1,0 +1,10 @@
+*.pyc
+*~
+*.project
+media/
+static/
+*.pydevproject
+.settings
+*.DS_Store
+*.backup
+.cache
