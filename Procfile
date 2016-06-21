@@ -1,1 +1,1 @@
-web: gunicorn voala.wsgi -b 0.0.0.0:$PORT
+web: gunicorn distance.wsgi -b 0.0.0.0:$PORT

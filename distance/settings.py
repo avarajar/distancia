@@ -23,7 +23,7 @@ RUTA_PROYECTO = Path(__file__).ancestor(2)
 SECRET_KEY = '41*ocpg*a-i(zhj%-j%un(x&i3a)$suymy+2$7uf)d=g@168^3'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 
 ALLOWED_HOSTS = ['*']
